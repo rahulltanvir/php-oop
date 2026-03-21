@@ -1,7 +1,9 @@
 <?php
+namespace OOPmathod;
 Class OopMethod{
-        public function addData($data){
-            $userName=$_POST['name'];
+        public function addData(){
+           
+            echo "name";
         }
 
 
