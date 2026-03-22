@@ -1,5 +1,5 @@
 <?php
-    class Rose {
+    class flower {
         public $name ="rose";
     }
 

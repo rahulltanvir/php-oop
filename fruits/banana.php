@@ -1,6 +1,6 @@
 <?php
-    class banana {
-        public $name ="rose";
+    class Banana {
+        public $fuitsName ="banana";
     }
 
 ?>
