@@ -1,0 +1,111 @@
+Step 0: Prerequisite – PHP & Web Basics================
+
+Time: 2–3 weeks
+Ki shikbe:
+
+PHP basics: variables, arrays, loops, functions
+OOP in PHP: class, object, inheritance, polymorphism
+HTML, CSS, JS basics
+MySQL basics: CRUD, JOIN, primary key, foreign key
+Composer (PHP dependency manager)
+
+Goal: Laravel shikhar age PHP strong hoye jabe.
+
+Step 1: Laravel Fundamentals=======================
+
+Time: 3–4 weeks
+Ki shikbe:
+
+Laravel setup (Composer, Artisan, environment)
+MVC structure (Model-View-Controller)
+Routing & Controllers
+Blade templating
+Database connection & Eloquent ORM
+CRUD operations
+Validation, Request handling
+
+Goal: Ekta simple CRUD web app banao (ex: simple blog, todo app)
+
+Step 2: Intermediate Laravel===================
+
+Time: 4–5 weeks
+Ki shikbe:
+
+Authentication & authorization (Login/Register)
+Middleware
+Relationships in Eloquent (One-to-One, One-to-Many, Many-to-Many)
+File upload & storage
+Pagination
+Error handling & custom exceptions
+
+Goal: Ekta user login system + relational data manage kora.
+
+Step 3: Advanced Laravel=================
+
+Time: 4–6 weeks
+Ki shikbe:
+
+REST API development
+API authentication (Passport / Sanctum)
+Event & Listener
+Queue & Jobs
+Notifications & Emails
+Unit Testing
+
+Goal: Ekta RESTful API banao, jeta React/Vue frontend use korte parbe.
+
+Step 4: Frontend Basics==================
+
+Time: 2–3 weeks
+Ki shikbe:
+
+HTML/CSS advance
+JavaScript ES6+
+DOM manipulation
+Fetch API / Axios
+Basics of SPA (Single Page Application)
+
+Goal: Laravel backend sathe frontend connect korte parbe.
+
+Step 5: Modern Frontend Framework=======================
+
+Time: 4–6 weeks
+Ki shikbe:
+
+React.js or Vue.js
+Components, Props, State
+Routing (React Router / Vue Router)
+Axios API calls
+Form handling & validation
+SPA workflow
+Optional: TailwindCSS for styling
+
+Goal: Dynamic frontend banate parbe, backend API sathe connect kore.
+
+Step 6: Full-Stack Integration======================
+
+Time: 3–4 weeks
+Ki shikbe:
+
+Connect Laravel backend with React/Vue frontend
+Token-based authentication (Laravel Sanctum / JWT)
+CRUD operations over API
+Deployment preparation (VPS, shared hosting, Cloud)
+
+Goal: Ekta real-world full-stack project ready hobe (ex: e-commerce site, task manager)
+
+Step 7: Real Projects & Portfolio==========================
+Build 2–3 full projects (Blog, E-commerce, Dashboard)
+Push code GitHub / GitLab
+Prepare portfolio for jobs/freelance
+Extra Tips:
+Always practice, not just watch tutorials.
+Learn Artisan commands – time save hoy.
+Use Laravel Packages (Spatie, Intervention, etc.) – real projects easy hoy.
+Join Laravel & PHP community (Reddit, Discord, StackOverflow)
+
+✅ Summary:
+
+Laravel → Backend strong
+React/Vue → Modern frontend
+Combined → Full-stack developer, market-ready
