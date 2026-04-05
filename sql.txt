@@ -12,3 +12,11 @@ CREATE TABLE students(
     gur_id INT,
     FOREIGN KEY (gur_id) REFERENCES std_guardian(gur_id)
 );
+
+SELECT * FROM students;
+SELECT * FROM std_guardian;
+
+SELECT students.*, std_guardian.gur_name
+FROM students
+INNER JOIN std_guardian
+ON students.gur_id = std_guardian.gur_id;
