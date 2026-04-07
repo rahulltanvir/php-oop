@@ -82,3 +82,9 @@ GROUP BY customers.id ORDER BY total_amount DESC;
 
 left joint=========
 SELECT * FROM customers LEFT JOIN orders ON customers.id = orders.customer_id;
+
+
+
+ifnull==========
+SELECT customers.first_name, IFNULL(SUM(amount),0) AS total_amount FROM customers LEFT JOIN orders 
+ON customers.id=orders.customer_id GROUP BY customers.id ORDER BY total_amount DESC;
