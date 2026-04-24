@@ -92,3 +92,23 @@ ON customers.id=orders.customer_id GROUP BY customers.id ORDER BY total_amount D
 
 RIGHT join============
 SELECT * FROM customers RIGHT JOIN orders ON customers.id = orders.customer_id;
+
+
+===================================================================================================
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    
+    std_name VARCHAR(100) NOT NULL,
+    std_roll VARCHAR(20) NOT NULL UNIQUE,
+    
+    std_class INT NOT NULL,
+    std_section INT NOT NULL,
+    std_session INT NOT NULL,
+    
+    std_phone VARCHAR(15) NOT NULL,
+    std_status ENUM('Active','Inactive') DEFAULT 'Active',
+
+    FOREIGN KEY (std_class) REFERENCES std_class(s_id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (std_section) REFERENCES std_section(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (std_session) REFERENCES std_session(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
