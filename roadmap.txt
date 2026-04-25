@@ -108,4 +108,4 @@ Join Laravel & PHP community (Reddit, Discord, StackOverflow)
 
 Laravel → Backend strong
 React/Vue → Modern frontend
-Combined → Full-stack developer, market-ready
+Combined → Full-stack developer, market-ready==========
